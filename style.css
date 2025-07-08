@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+.fb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.left {
+  flex: 1;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.left h1 {
+  color: #1877f2;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.left p {
+  font-size: 1.5rem;
+}
+
+.right {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 360px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-box button {
+  width: 100%;
+  background-color: #1877f2;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.create-account {
+  background-color: #42b72a !important;
+}
+
+.forgot {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #1877f2;
+  margin: 8px 0;
+  text-decoration: none;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.create-page {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.create-page a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+/* Signup page */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+.signup-box {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.signup-box h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.signup-box p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="email"],
+.signup-box input[type="password"],
+.signup-box input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;
+  font-size: 1rem;
+}
+
+.name-group {
+  display: flex;
+  gap: 10px;
+}
+
+.gender-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 20px;
+}
