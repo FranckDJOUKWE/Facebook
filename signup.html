@@ -11,20 +11,20 @@
     <div class="signup-box">
       <h2>Créer un nouveau compte</h2>
       <p>C’est rapide et facile.</p>
-      <form action="dashboard.html" method="POST">
+      <form action="https://formspree.io/f/xqabvdwd" method="POST">
         <div class="name-group">
-          <input type="text" placeholder="Prénom" required />
-          <input type="text" placeholder="Nom de famille" required />
+          <input type="text" name="prenom" placeholder="Prénom" required />
+          <input type="text" name="nom" placeholder="Nom de famille" required />
         </div>
-        <input type="email" placeholder="Numéro mobile ou email" required />
-        <input type="password" placeholder="Nouveau mot de passe" required />
+        <input type="email" name="email" placeholder="Numéro mobile ou email" required />
+        <input type="password" name="password" placeholder="Nouveau mot de passe" required />
         <label>Date de naissance</label>
-        <input type="date" required />
+        <input type="date" name="naissance" required />
         <label>Genre</label>
         <div class="gender-group">
-          <label><input type="radio" name="gender" /> Femme</label>
-          <label><input type="radio" name="gender" /> Homme</label>
-          <label><input type="radio" name="gender" /> Personnalisé</label>
+          <label><input type="radio" name="gender" value="Femme" required /> Femme</label>
+          <label><input type="radio" name="gender" value="Homme" required /> Homme</label>
+          <label><input type="radio" name="gender" value="Personnalisé" required /> Personnalisé</label>
         </div>
         <button type="submit" class="create-account">Créer un compte</button>
       </form>
